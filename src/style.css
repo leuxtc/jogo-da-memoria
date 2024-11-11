@@ -93,3 +93,13 @@ button {
 .item.boxOpen::after {
     transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 621px) {
+    .container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
