@@ -16,11 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: linear-gradient(
-        325deg,
-        #1b92b9 0%,
-        #1534e0 90%
-    );
+    background: linear-gradient(325deg,
+            #1b92b9 0%,
+            #1534e0 90%);
     padding: 40px 60px;
     border-radius: 20px;
 }
@@ -94,12 +92,36 @@ button {
     transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 621px) {
+@media screen and (max-width: 640px) {
+    body {
+        background: linear-gradient(325deg,
+                #1b92b9 0%,
+                #1534e0 90%);
+    }
+
     .container {
-        width: 80%;
+        padding: 0;
+        background: none;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 1.6em;
+    }
+
+    .game {
+        width: 250px;
+    }
+
+    .item {
+        width: 55px;
+        height: 55px;
+    }
+
+    .item {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 1.2em;
     }
 }
